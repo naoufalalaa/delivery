@@ -1,0 +1,8 @@
+.inc{
+    transform: skewY(-2deg);
+    -o-transform: skewY(-2deg) ;
+    -moz-transform: skewY(-2deg) ;
+    -webkit-transform: skewY(-2deg) ;
+    -ms-transform: skewY(-2deg) ;
+    -khtml-transform: skewY(-2deg) ;
+}

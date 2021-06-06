@@ -1,0 +1,10 @@
+RewriteEngine on
+
+RewriteBase /
+RewriteRule ^(.+)\.php$ /delivery/$1 [R,L]
+RewriteCond %{REQUEST_FILENAME}.php -f
+
+RewriteRule ^(.*?)/?$ /delivery/$1.php [NC,END]
+
+ErrorDocument 404 /delivery/404/index.html
+ErrorDocument 403 403.html
